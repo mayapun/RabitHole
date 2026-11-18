@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "RabbitHole",
+  "version": "0.2.0",
+  "description": "Save research pages and connect them in a private graph.",
+  "icons": {
+    "16": "icons/rabbithole-16.png",
+    "32": "icons/rabbithole-32.png",
+    "48": "icons/rabbithole-48.png",
+    "128": "icons/rabbithole-128.png"
+  },
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Save to RabbitHole",
+    "default_icon": {
+      "16": "icons/rabbithole-16.png",
+      "32": "icons/rabbithole-32.png"
+    }
+  },
+  "permissions": ["activeTab", "storage"]
+}
